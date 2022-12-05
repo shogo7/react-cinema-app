@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:18.4.0
     working_directory: ~/repo
-    step:
+    steps:
       - checkout
       - run:
         name: Show current branch
